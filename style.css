@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Teko:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+
+section {
+    background-image: url("https://usagif.com/wp-content/uploads/gifs/boa-sorte-8.gif");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.image-logo {
+    width: 150px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(245, 239, 239);
+    text-align: center;
+    margin-top: 30px,0,0,20px
+    
+}
+
+input {
+    background-color: hsl(0, 33%, 94%);
+    border: 1px solid hsl(0, 79%, 81%);
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    color: #c80000f8;
+    line-height: 30px;
+    padding-left: 20px;
+    font-weight: 700;
+
+}
+
+.minima {
+    appearance: none;
+    margin-right: 10px;
+}
+
+button {
+    background-color: rgb(210, 30, 30);
+    width: 150px;
+    height: 40px;
+    border: 1px solid hsl(0, 33%, 94%);
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 5px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+button:hover{
+    opacity: 0.9;
+}
+button:active{
+    opacity: 0.5;
+}
